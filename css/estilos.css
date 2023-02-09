@@ -47,7 +47,7 @@ h2 {
     background-repeat: no-repeat;
 }
 
-.cabecalho .listamenu{
+.cabecalho .listamenu {
 
     display: flex;
     flex-direction: row;
@@ -266,7 +266,7 @@ hr {
 
     main {
 
-        width: 375px;
+        max-width: 100vh;
 
         display: flex;
         flex-direction: column;
@@ -292,7 +292,7 @@ hr {
         display: flex-start;
         left: 0px;
     }
-    
+
 
     .menu {
 
@@ -304,16 +304,16 @@ hr {
         background-image: url(../imagem/images/icon-menu-close.svg);
         background-repeat: no-repeat;
         background-position: center;
-        
+
     }
 
-    .aberto{
+    .botaomudado {
         background-image: url(../imagem/images/icon-menu.svg);
         transition: 0.3s ease-in-out;
     }
-    
 
-    .revelar {
+
+    .listamenu.revelar {
         opacity: 1;
         position: absolute;
         display: flex;
@@ -367,11 +367,12 @@ hr {
         font-size: 20px;
     }
 
-    .imagem {
+    .imagem,
+    .imagem img {
 
-        width: 300px;
+        width: 355px;
         height: 250px;
-        
+
     }
 
 
@@ -407,5 +408,8 @@ hr {
         font-size: 17px;
     }
 
+    top3 .noticiatop1, .noticiatop2, .noticiatop3 {
 
+        width: 350px;
+    }
 }

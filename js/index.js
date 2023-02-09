@@ -2,14 +2,15 @@
 
 const menucabecalho = document.getElementById('opcao');
 
-const listamenu = document.querySelector('.listamenu')
+const listamenu = document.querySelector('.listamenu');
 
 
 
-menucabecalho.addEventListener('touch', () => {
+    menucabecalho.addEventListener('touchstart', () => {
 
 
-    listamenu.classList.add('revelar');
-    menucabecalho.classList.add('aberto');
+         listamenu.classList.add('revelar');
+        
+         console.log(listamenu.classList);
+    })
 
-})
